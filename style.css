@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('image.png') ;
+    background-size: cover;
+}
+
+img {
+    float: right; /* Выравнивание фотографии справа */
+    margin-top: 245px;  
+    margin-right: 70px;
+     transform: scale(1.1);
+}
+.top-header {
+    display: flex; /* Устанавливаем контейнеру flex-контейнером */
+    flex-direction: column; /* Выравнивание в столбик */
+    gap: 30px; /* Расстояние между изображениями */
+    align-items: center; /* Выравнивание по центру по горизонтали */
+}
+
+.image-with-text-header {
+    background-image: url('Vector.png');
+    width: 1090px;
+    height: 121px;
+    flex-shrink: 0;
+    background-size: cover;
+    text-indent: -9999px; /* Скрой текст, чтобы он не перекрывал изображение */
+}
+
+.image-with-text-ABOUT  {
+background-image: url('ABOUT.png');
+color: #FFF;
+width: 117px;
+height: 30px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+    background-size: cover;
+    text-indent: -9999px; /* Скрой текст, чтобы он не перекрывал изображение */
+}
+
+.image-with-text-manyText {
+      background-image: url('manyText.png');
+    width: 1090px;
+    height: 170px;
+    background-size: cover;
+    text-indent: -9999px; /* Скрой текст, чтобы он не перекрывал изображение */
+color: #FFF;
+text-align: justify;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+.image-with-text-products {
+background-image: url('PRODUCTS.png');
+    width: 186px;
+    height: 30px;
+    background-size: cover;
+    text-indent: -9999px; /* Скрой текст, чтобы он не перекрывал изображение */
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+
+.table-text {
+color: #FFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+    letter-spacing: 1.8px;
+
+}
+.bordered-container {
+border: 2px solid #FFF;   
+display: inline-flex;
+height: 48px;
+padding: 4px 24px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+
+.production-other {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
